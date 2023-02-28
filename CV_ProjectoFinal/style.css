@@ -1,0 +1,92 @@
+* {
+  margin: 4px;
+  word-wrap: word-break;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+hr.rounded {
+  border-top: 8px solid #3a41e4;
+  border-radius: 5px;
+}
+
+.title,
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #3a41e4;
+  background-color: rgb(206, 246, 207);
+}
+
+h1 {
+  font-size: 54px;
+}
+h2 {
+  font-size: 41px;
+}
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+.parrafo,
+.referencias {
+  text-align: justify;
+  text-justify: inter-word;
+  height: auto;
+  width: auto;
+  margin: 10px;
+  display: block;
+  overflow: auto;
+}
+.main {
+  display: flex;
+  min-height: 75vh;
+}
+.principal {
+  color: #3a41e4;
+  width: 70%;
+}
+
+.job {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.job-info {
+  width: 40%;
+}
+
+.estudio {
+  margin-bottom: 30px;
+}
+.estudio-lugar {
+  text-transform: uppercase;
+}
+
+.sidebar {
+  background-color: #3a41e4;
+  color: white !important;
+  width: 30%;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+}
+.foto {
+  position: relative;
+  top: -15px; /* ajustar los valores para mover la imagen */
+  left: -5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  display: block;
+}
